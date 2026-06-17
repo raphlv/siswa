@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Circular border container -->
+  <circle cx="60" cy="60" r="54" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-dasharray="2 2"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#8b5cf6" stroke-width="1.5"/>
+  
+  <!-- Stylized Book and Gear Icon in center -->
+  <!-- Gear -->
+  <path d="M60 38 C56 38 53 41 53 45 C53 46 53.2 46.9 53.6 47.6 L50.5 50.7 C49.8 50.3 48.9 50.1 48 50.1 C44 50.1 41 53.1 41 57.1 C41 58 41.2 58.9 41.6 59.6 L38.5 62.7 C37.8 62.3 36.9 62.1 36 62.1 C32 62.1 29 65.1 29 69.1 C29 73.1 32 76.1 36 76.1 C36.9 76.1 37.8 75.9 38.5 75.5 L41.6 78.6 C41.2 79.3 41 80.2 41 81.1 C41 85.1 44 88.1 48 88.1 C48.9 88.1 49.8 87.9 50.5 87.5 L53.6 90.6 C53.2 91.3 53 92.2 53 93.1 C53 97.1 56 100.1 60 100.1 C64 100.1 67 97.1 67 93.1 C67 92.2 66.8 91.3 66.4 90.6 L69.5 87.5 C70.2 87.9 71.1 88.1 72 88.1 C76 88.1 79 85.1 79 81.1 C79 80.2 78.8 79.3 78.4 78.6 L81.5 75.5 C82.2 75.9 83.1 76.1 84 76.1 C88 76.1 91 73.1 91 69.1 C91 65.1 88 62.1 84 62.1 C83.1 62.1 82.2 62.3 81.5 62.7 L78.4 59.6 C78.8 58.9 79 58 79 57.1 C79 53.1 76 50.1 72 50.1 C71.1 50.1 70.2 50.3 69.5 50.7 L66.4 47.6 C66.8 46.9 67 46 67 45 C67 41 64 38 60 38 Z" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Stylized Book (academic shield) -->
+  <path d="M42 45 L60 32 L78 45 L78 72 C78 84 60 92 60 92 C60 92 42 84 42 72 Z" fill="none" stroke="#6366f1" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 32 L60 92" fill="none" stroke="#6366f1" stroke-width="1.5"/>
+  
+  <!-- Pages/Lines inside book -->
+  <path d="M48 52 L54 54 M48 60 L54 62 M48 68 L54 70" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M72 52 L66 54 M72 60 L66 62 M72 68 L66 70" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Decorative Star (Expertise/Quality) -->
+  <polygon points="60,40 62,45 67,45 63,48 65,53 60,50 55,53 57,48 53,45 58,45" fill="#f59e0b"/>
+  
+  <!-- Bold LPPM Text Badge -->
+  <rect x="35" y="80" width="50" height="16" rx="8" fill="#4f46e5"/>
+  <text x="60" y="92" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="10.5" fill="#ffffff" text-anchor="middle" letter-spacing="1">LPPM</text>
+</svg>
