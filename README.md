@@ -1,129 +1,67 @@
 ﻿<div align="center">
 
-# Sistem Informasi Akademik Siswa (SIAKAD)
+# ðŸŽ“ Siswa â€” Academic Information Management System (SIAKAD)
 
-### *Academic & Student Information Management System*
+### *Student Master Data, Online Gradebook, Rapor Generation, & Attendance Tracking*
 
-![PHP](https://img.shields.io/badge/PHP-informational?style=for-the-badge&logo=PHP&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-informational?style=for-the-badge&logo=Laravel&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-informational?style=for-the-badge&logo=MySQL&logoColor=white) ![AdminLTE](https://img.shields.io/badge/AdminLTE-informational?style=for-the-badge&logo=AdminLTE&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-informational?style=for-the-badge&logo=JavaScript&logoColor=white)
-
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-orange?style=for-the-badge)
 
 ---
 
 </div>
 
-## ðŸ“Œ Overview
+## ðŸ“Œ About Siswa
 
-Siswa is a comprehensive academic management system designed to streamline student registration, grading, class schedules, attendance tracking, and parent communications.
-
-Developed to provide a robust, clean, and production-ready architecture tailored for Education & Academic Management requirements.
+**Siswa** is a comprehensive school academic management system (SIAKAD). Built for primary and secondary schools, it manages student master records (NISN), teacher class assignments, daily attendance logs, online gradebooks, and automated report card (Rapor) generation.
 
 ---
 
 ## âœ¨ Key Features
 
-- **Student Master Data & Cumulative Record Management**
-- **Online Gradebook & Automated Report Card (Rapor) Generator**
-- **Class Schedule & Daily Student Attendance Tracking**
-- **Parent & Student Self-Service Academic Portal**
-- **Teacher Assignment & Subject Curriculum Directory**
+### ðŸ“‹ 1. Student & Teacher Record Management
+- Complete NISN student profiles, parent info, and academic history.
+- Teacher subject assignment & class homeroom coordinator management.
+
+### ðŸ“Š 2. Online Gradebook & Automated Rapor Generator
+- Numerical & letter grading (Knowledge & Skills assessment).
+- Automated GPA (IPK) and class ranking calculation.
+- PDF Report Card (Rapor Digital) printing compliant with national curriculum standards.
+
+### â±ï¸ 3. Attendance & Schedule Management
+- Daily student attendance logging (Present, Sick, Permitted, Absent).
+- Timetable schedule generator per class room.
 
 ---
 
-## ðŸ› ï¸ Technology Stack
+## ðŸš€ Installation & Setup
 
-| Component | Technologies Used |
-| :--- | :--- |
-| **Backend & Framework** | PHP / Node.js / Laravel / Modular Architecture |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+), Bootstrap / Tailwind CSS |
-| **Database** | MySQL / MariaDB / Relational Schema |
-| **Tools & Version Control** | Git, Composer, NPM, Laragon / Web Server |
+`ash
+git clone https://github.com/raphlv/siswa.git
+cd siswa
 
----
+composer install
+npm install && npm run build
 
-## ðŸ“‚ Project Architecture
+cp .env.example .env
+php artisan key:generate
 
+php artisan migrate --seed
+php artisan serve
 `
-siswa/
-â”œâ”€â”€ app/               # Core application logic & controllers
-â”œâ”€â”€ config/            # System & environment configuration
-â”œâ”€â”€ database/          # Database migrations, seeders & schema
-â”œâ”€â”€ public/            # Public web assets (CSS, JS, Images)
-â”œâ”€â”€ resources/         # Views, templates & raw assets
-â”œâ”€â”€ routes/            # Web and API routing definitions
-â”œâ”€â”€ storage/           # Logs, cache & application uploads
-â”œâ”€â”€ README.md          # Project documentation
-â””â”€â”€ .gitignore         # Git repository exclusions
-`
-
----
-
-## ðŸš€ Getting Started
-
-### Prerequisites
-
-Ensure you have the following installed on your local environment:
-- **PHP** >= 8.0 or **Node.js** >= 16.x
-- **Composer** / **NPM**
-- **MySQL** / **MariaDB**
-- Web Server (**Laragon** / **XAMPP** / **Apache** / **Nginx**)
-
-### Installation Steps
-
-1. **Clone the repository**
-   `ash
-   git clone https://github.com/raphlv/siswa.git
-   cd siswa
-   `
-
-2. **Install Dependencies**
-   `ash
-   composer install
-   # or
-   npm install
-   `
-
-3. **Environment Configuration**
-   Copy the .env.example file and configure your database settings:
-   `ash
-   cp .env.example .env
-   `
-
-4. **Database Setup & Migration**
-   `ash
-   php artisan migrate --seed
-   `
-
-5. **Run Local Development Server**
-   `ash
-   php artisan serve
-   # or start via Laragon virtual host: http://siswa.test
-   `
-
----
-
-## ðŸ¤ Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/raphlv/siswa/issues).
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git checkout -b feature/AmazingFeature)
-5. Open a Pull Request
 
 ---
 
 ## ðŸ“ License & Author
 
-Distributed under the **MIT License**. See LICENSE for more information.
+Distributed under the **MIT License**.
 
 ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
 âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
-  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:20:38</sub>
+  <sub>Automated Sync Enabled for Contribution Tracking | Last Updated: 2026-08-18 14:37:15</sub>
 </div>
