@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# ðŸŽ“ Siswa â€” Academic Information Management System (SIAKAD)
+# " Siswa " Academic Information Management System (SIAKAD)
 
 ### *Student Master Data, Online Gradebook, Rapor Generation, & Attendance Tracking*
 
@@ -13,30 +13,30 @@
 
 </div>
 
-## ðŸ“Œ About Siswa
+## " About Siswa
 
 **Siswa** is a comprehensive school academic management system (SIAKAD). Built for primary and secondary schools, it manages student master records (NISN), teacher class assignments, daily attendance logs, online gradebooks, and automated report card (Rapor) generation.
 
 ---
 
-## âœ¨ Key Features
+##  Key Features
 
-### ðŸ“‹ 1. Student & Teacher Record Management
+### " 1. Student & Teacher Record Management
 - Complete NISN student profiles, parent info, and academic history.
 - Teacher subject assignment & class homeroom coordinator management.
 
-### ðŸ“Š 2. Online Gradebook & Automated Rapor Generator
+### " 2. Online Gradebook & Automated Rapor Generator
 - Numerical & letter grading (Knowledge & Skills assessment).
 - Automated GPA (IPK) and class ranking calculation.
 - PDF Report Card (Rapor Digital) printing compliant with national curriculum standards.
 
-### â±ï¸ 3. Attendance & Schedule Management
+###  3. Attendance & Schedule Management
 - Daily student attendance logging (Present, Sick, Permitted, Absent).
 - Timetable schedule generator per class room.
 
 ---
 
-## ðŸš€ Installation & Setup
+##  Installation & Setup
 
 `ash
 git clone https://github.com/raphlv/siswa.git
@@ -54,12 +54,12 @@ php artisan serve
 
 ---
 
-## ðŸ“ License & Author
+## " License & Author
 
 Distributed under the **MIT License**.
 
-ðŸ‘¤ **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
-âœ‰ï¸ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
+' **Author**: [Pangeran Ryan Pahlevi](https://github.com/raphlv)  
+ **Email**: [pangeranryan080504@gmail.com](mailto:pangeranryan080504@gmail.com)  
 
 ---
 <div align="center">
