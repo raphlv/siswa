@@ -1,8 +1,8 @@
-﻿<div align="center">
+<div align="center">
 
-# Student Management System â€” Academic Record & Attendance Portal
+# Student Management System - Academic Record and Attendance Portal
 
-### *Classroom Roster, Grade Book Management, & Student Performance Dashboard*
+### *Classroom Roster, Grade Book Management, and Student Performance Dashboard*
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
@@ -19,7 +19,4 @@ School academic administration portal managing student enrollment, daily digital
 ---
 
 ## Developer and Maintainer
-Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
-
-<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
-
+Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
