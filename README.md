@@ -18,5 +18,36 @@ School academic administration portal managing student enrollment, daily digital
 
 ---
 
+## Key Features
+
+- Student Profile Ledger: Manages NISN, parent contact details, academic history, and enrollment status.
+- Daily Digital Attendance: Quick attendance check (Present, Sick, Excused, Absent) with monthly percentage summaries.
+- Gradebook Rubric: Input assignments, mid-terms, and final exam scores with weighted average calculations.
+- Report Card Export: Automated PDF generation of official student semester evaluation reports.
+
+---
+
+## Technology Stack
+
+- Backend: Laravel 10 (PHP 8.2)
+- Database: MySQL 8.0
+- Frontend: Blade Templates and Bootstrap 5
+
+---
+
+## Getting Started
+
+`ash
+git clone https://github.com/raphlv/siswa.git
+cd siswa
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
+`
+
+---
+
 ## Developer and Maintainer
 Pangeran Ryan Pahlevi - https://pangeranryan.vercel.app
