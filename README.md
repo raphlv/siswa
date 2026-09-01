@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# ðŸ‘¨â€ðŸŽ“ Student Management System â€” Academic Record & Attendance Portal
+# Student Management System â€” Academic Record & Attendance Portal
 
 ### *Classroom Roster, Grade Book Management, & Student Performance Dashboard*
 
@@ -12,9 +12,14 @@
 
 </div>
 
-## ðŸ“Œ About The Project
+## About The Project
 
 School academic administration portal managing student enrollment, daily digital attendance tracking, subject grading rubrics, and automated report card generators.
 
-<!-- Last verified & polished: 2026-09-01 13:08:36 by Pangeran Ryan Pahlevi -->
+---
+
+## Developer and Maintainer
+Pangeran Ryan Pahlevi â€” https://pangeranryan.vercel.app
+
+<!-- Last verified: 2026-09-01 13:10:43 by Pangeran Ryan Pahlevi -->
 
